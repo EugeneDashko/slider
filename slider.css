@@ -1,5 +1,6 @@
 html, body {
     background: #000;
+    box-sizing: border-box;
 }
 
 * {
@@ -7,11 +8,11 @@ html, body {
 }
 
 .slider {
+    position: relative;
     width: 500px;
     height: 500px;
     border: 15px solid #ffff;
     margin: 0 auto;
-    position: relative;
     /* overflow: hidden; */
     margin-top: 2rem;
 }
